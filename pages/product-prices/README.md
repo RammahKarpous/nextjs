@@ -1,0 +1,2 @@
+# Purpose of this file
+The purpose of this file is to display different prices based on checked radio buttons. For instance you have a form that offers different prices. To simplify this for the customer,
