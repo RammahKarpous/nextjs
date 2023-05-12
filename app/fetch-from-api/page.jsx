@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react'
 
 const fetchApi = async () => {
@@ -14,7 +16,7 @@ const fetchApi = async () => {
 		})
 }
 
-export default function fetchFromApi() {
+export default function Page() {
     return (
         <div>
             <input type="button" value="Fetch from api" style={{ padding: '5px' }} onClick={() => fetchApi()} />

@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 
 export default function Index() {
@@ -26,7 +28,7 @@ export default function Index() {
     const flexStyling = 'flex flex-col items-start justify-start mb-10'
 
     return (
-        <div className="max-w-5xl mt-11 border border-gray-200 m-auto p-10 rounded-md">
+        <div className="max-w-5xl p-10 m-auto border border-gray-200 rounded-md mt-11">
             
             <form className={flexStyling}>
                 <div className={flexStyling}>

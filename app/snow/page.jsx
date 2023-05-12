@@ -1,6 +1,8 @@
+"use client";
+
 import React, { useEffect, useState } from "react";
 
-function Blocks() {
+export default function Page() {
   const [generatedBlocks, setGeneratedBlocks] = useState([]);
 
   useEffect(() => {
@@ -28,5 +30,3 @@ function Blocks() {
     </div>
   );
 }
-
-export default Blocks;

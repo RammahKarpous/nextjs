@@ -1,6 +1,8 @@
+"use client";
+
 import { useEffect, useState } from "react"
 
-export default function Home() {
+export default function Page() {
 
 	const [ fields, setFields ] = useState([]);
 
