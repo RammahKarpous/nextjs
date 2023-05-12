@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes snowfall {
+    0% {
+        transform: translateY(100vh);
+    }
+
+    100% {
+        transform: translateY(-100px);
+    }
+}
+
+.block {
+    animation: snowfall 5s linear infinite;
+}

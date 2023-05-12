@@ -1,0 +1,2 @@
+## Purpose of this code
+This code in the `index.jsx` was all regenerated with ChatGTP (I added the `absolute w-4 h-4 bg-blue-400 rounded-[3px]` [TailwindCSS](https://tailwindcss.com/) classes). It recreated the header animation of [VioGraphs Media](https://viographs.com).
